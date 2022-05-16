@@ -23,7 +23,7 @@ name                     : "SanYoonie"
 description              : "이것저것 올리는 블로그입니당...✨"
 url                      : "https://ssy02060.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "httpS://github.com/ssy02060/ssy02060.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -104,8 +104,8 @@ analytics:
 author:
   name             : "SanYoonie"
   avatar           : "/assets/images/profile.png"
-  bio              : "이것저것하고 있습니당. \n💻보안 네트워크 개발 축구...⚽"
-  location         : "Somewhere"
+  bio              : "이것저것하고 있습니당\n💻보안 네트워크 개발 축구...⚽"
+  location         : "대구 촌놈 🚀 서울 어딘가"
   email            : 
   links:
     - label: "Email"
@@ -218,7 +218,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -288,6 +288,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
   - scope:
       path: "_pages"
       type: pages

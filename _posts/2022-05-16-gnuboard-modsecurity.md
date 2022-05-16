@@ -1,5 +1,6 @@
 # Apache2 서버(GNU Board) 생성 후 Modsecurity 웹 방화벽 적용 
-> GNU Board 웹 서버 생성 
+#### GNU Board 웹 서버 생성 
+* * *
 ```bash
 # apache2 설치
 $ seo@seo: sudo apt install -y apache2
@@ -13,6 +14,8 @@ $ seo@seo: sudo apt install -y git
 $ seo@seo: cd /var/www/html
 $ seo@/var/www/html: sudo git clone https://github.com/gnuboard/gnuboard5
 ```
+#### MySQL 데이터베이스, User 세팅
+* * *
 ```sql
 mysql > create user bts;
 mysql > grant all privileages on bts

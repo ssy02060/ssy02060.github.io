@@ -103,8 +103,8 @@ analytics:
 # Site Author
 author:
   name             : "SanYoonie"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "이것저것하고 있습니당. 💻보안 네트워크 개발 축구...⚽"
+  avatar           : "/assets/images/profile.png"
+  bio              : "이것저것하고 있습니당. \n💻보안 네트워크 개발 축구...⚽"
   location         : "Somewhere"
   email            : 
   links:

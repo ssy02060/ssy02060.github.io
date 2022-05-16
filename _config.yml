@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "상윤쓰 개발 공부 블로그"
+locale                   : "KO-kr"
+title                    : "Sanyoonie 개발"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "상윤쓰"
+name                     : "SanYoonie"
 description              : "이것저것 올리는 블로그입니당.."
 url                      : "https://ssy02060.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"

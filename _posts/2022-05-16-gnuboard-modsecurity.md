@@ -3,8 +3,7 @@ title:  "Apache2 서버(GNU Board) 생성 후 Modsecurity 웹 방화벽 적용 "
 excerpt: "웹 방화벽 설정"
 
 comments: true
-subject: [security]
-categories: [security]
+categories: [web-security]
 tags: [apache, web-security, gnuboard, modsecurity, firewall]
 
 toc: true

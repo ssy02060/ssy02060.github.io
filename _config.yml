@@ -15,10 +15,10 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "KO-kr"
+locale                   : "ko-KR"
 title                    : "SanYoonie 개발 블로그"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "Keep going bro"
 name                     : "SanYoonie"
 description              : "이것저것 올리는 블로그입니당...✨"
 url                      : "https://ssy02060.github.io"
@@ -27,6 +27,7 @@ repository               : "httpS://github.com/ssy02060/ssy02060.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+category_list            : [security, development, blog]
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -104,7 +105,7 @@ analytics:
 author:
   name             : "SanYoonie"
   avatar           : "/assets/images/profile.png"
-  bio              : "이것저것하고 있습니당<br>💻보안 네트워크 개발 축구...⚽"
+  bio              : "이것저것하고 있습니당<br>**💻보안 네트워크 개발 축구...⚽**"
   location         : "대구 촌놈 🚀 서울 어딘가"
   email            : 
   links:
@@ -218,7 +219,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Asia/Seoul# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

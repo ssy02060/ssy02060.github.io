@@ -2,10 +2,10 @@
 title:  "Apache2 서버(GNU Board) 생성 후 Modsecurity 웹 방화벽 적용 "
 excerpt: "웹 방화벽 설정"
 
-categories:
-  - 보안...🖥
-tags:
-  - [apache, security, gnuboard, modsecurity, firewall]
+comments: true
+subject: [security]
+categories: [security]
+tags: [apache, security, gnuboard, modsecurity, firewall]
 
 toc: true
 toc_sticky: true
@@ -13,8 +13,6 @@ toc_sticky: true
 date: 2022-5-16
 last_modified_at: 2022-5-16
 ---
-
-# Apache2 서버(GNU Board) 생성 후 Modsecurity 웹 방화벽 적용 
 #### GNU Board 웹 서버 생성 
 * * *
 ```bash
@@ -36,4 +34,6 @@ $ seo@/var/www/html: sudo git clone https://github.com/gnuboard/gnuboard5
 mysql > create user bts;
 mysql > grant all privileages on bts
 ```
-![picture 10](../assets/images/20220516-143455.png)  
+
+![picture 3](../assets/images/20220516-102930.png)  
+

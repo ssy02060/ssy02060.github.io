@@ -90,15 +90,12 @@ $ sudo sysctl -w net.ipv4.icmp_echo_ignore_broadcast=0
 ![](../../assets/images/20220517-233322.png){: .center}
 - 192.168.5.128 에 해당 명령어를 추가했을때 공격에 가담한걸 확인할 수 있음 .
 
-
-* * *
-
 **Scanning vs DoS 차이?**
 - scaning은 여러 포트를 보는 것 -> 응답이 있나 없나 확인
 - DoS 는 한 포트만 조지는 것
 
 #### DDoS 공격
-
+* * *
 **공격 단계**
 
 - 관리가 소홀한 컴퓨터를 해킹해서 (C&C 프로그램을 설치 - Command & Control ) -> 30개 정도 확보
@@ -106,3 +103,18 @@ $ sudo sysctl -w net.ipv4.icmp_echo_ignore_broadcast=0
 - Zombie에 감염되면 C&C 에 자신이 감염되었음을 알림
 - C&C에 Zombie 리스트 확보 됨 -> 판매 or 공격 시 활용
 - Attacker는 C&C를 옮겨 다니면서 공격 명령을 내림
+
+**보안 업체의 솔루션**
+
+- 일부러 Zombie 에 감염을 시킴
+- Zombie가 어디로 연락하는지 확인 -> Wireshark로 C&C IP 체크
+- Zombie에게 신호를 보내는 C&C IP를 찾아서 차단
+
+**DDoS 공격의 주기? 항상**
+
+- 확인하는 사이트
+
+- https://horizon.netscout.com/
+- https://livethreatmap.radware.com/
+- DDoS 공격은 사람이 하는 것이 아니고 Bot (자동화된 프로그램) 이 공격을 수행
+- 암호화폐의 80%, 주식 거래의 70% 이상은 Bot이 거래함

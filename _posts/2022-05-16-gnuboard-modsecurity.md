@@ -5,7 +5,7 @@ excerpt: "웹 방화벽 설정"
 comments: true
 subject: [security]
 categories: [security]
-tags: [apache, security, gnuboard, modsecurity, firewall]
+tags: [apache, web-security, gnuboard, modsecurity, firewall]
 
 toc: true
 toc_sticky: true

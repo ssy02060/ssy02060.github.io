@@ -3,7 +3,7 @@ title:  "Brute Force"
 excerpt: ""
 
 categories:
-  - security
+  # - security
 tags:
   - [csrf, security, metasploitable2, dvwa, burp-suite]
 

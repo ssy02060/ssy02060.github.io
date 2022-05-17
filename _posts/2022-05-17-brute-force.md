@@ -1,10 +1,10 @@
 ---
 title:  "Burp Suite를 활용한 Brute Force 공격"
-excerpt: ""
+excerpt: "Metasploitable2의 DVWA brute-force tab"
 
 categories: security
 tags:
-  - [csrf, metasploitable2, dvwa, burp-suite]
+  - [ metasploitable2, dvwa, burp-suite]
 
 toc: true
 toc_sticky: true

@@ -4,7 +4,7 @@ excerpt: "웹 방화벽 설정"
 
 comments: true
 subject: [security]
-# categories: [security]
+categories: [security]
 tags: [apache, security, gnuboard, modsecurity, firewall]
 
 toc: true
@@ -35,5 +35,5 @@ mysql > create user bts;
 mysql > grant all privileages on bts
 ```
 
-![picture 3](../assets/images/20220516-102930.png)  
+![picture 3](/assets/images/20220516-102930.png)  
 

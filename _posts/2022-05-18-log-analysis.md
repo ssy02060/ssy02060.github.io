@@ -129,6 +129,7 @@ $6, $7, $8}'
 # 192.168.5.1에서 몇번 접속했는지 확인하려면?
 $ sudo cat bee_access.log | awk '{print $1}' | sort | uniq -c | sort -rn
 ```
+
 ![](../../assets/images/20220518-105623.png){: .center}
 
 ``` bash
@@ -140,6 +141,15 @@ $ sudo cat bee_access.log | grep '192.168.5.1' |awk '{print $1,$4,$5}' | tail -1
 ```
 
 ![](../../assets/images/20220518-105345.png){: .center}
+
+```bash
+# dvwa log 확인
+$ tail -10 dv_access.log
+# post로 시작하는 로그만 출력
+# / : 찾기
+$ sudo cat dv_access.log | awk '$6~/"POST/{print $11}' | sort | uniqu -c | sort -rn
+
+```
 
 ##### CERT (침해사고 대응팀)
 - 회사 내에 존재, 보안 업체들이 전문인력으로 구성

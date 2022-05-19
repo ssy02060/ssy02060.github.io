@@ -1,5 +1,5 @@
 ---
-title:  "Ubuntu 환경에서의 Log 분석 - 1"
+title:  "Ubuntu 환경에서의 Log 분석"
 excerpt: "로그 분석"
 
 categories: forensic

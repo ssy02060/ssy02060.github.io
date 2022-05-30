@@ -24,3 +24,32 @@ last_modified_at: 2022-05-04
 ![](../../assets/images/20220523-192549.png){: .center}
 
 ![](../../assets/images/20220523-192600.png){: .center}
+
+- HTTP Request And HTTP Response
+
+![](../../assets/images/20220531-022848.png){: .center}
+
+- HTTP Request Method
+  - safe methods (no action on server) :  GET, HEAD
+  - message with body (send data to server) : PUT, POST, PATCH
+  - TRACE, OPTIONS, DELETE
+
+ **GET 과 POST 를 제외한 나머지 Method는 굳이 사용할 필요가 없거나 보안 측면에서 위험함**
+
+ **웹서버에 대한 보안 인증(ISO27001, ISMS-P) 에서 GET과 POST만 허용 (나머지가 있으면 결함)**
+
+- GET Method
+  - 구조 : URI + Query String 
+
+![](../../assets/images/20220531-023031.png){: .center}
+
+- POST Method
+  - 구조 : URI + Query String -> body에 있음.
+  - 필수 옵션 : Method, content-length, body
+
+#### SSL/TLS
+- TLS 1.2 vs TSL 1.3
+
+![](../../assets/images/20220531-023113.png){: .center}
+
+TLS 1.2 vs TLS 1.3 비교 (이미지 출처 : https://xetown.com/topics/1258213)

@@ -132,6 +132,7 @@ cf.union select 는 기존 select 문과 칼럼수가 동일해야 함
 - 결론 : md5 해쉬함수로 변환되었음을 알 수 있다.
 
 **해쉬 값을 크래킹해주는 사이트**
+
 <https://hashes.com/en/decrypt/hash>
 <https://crackstation.net/>
 

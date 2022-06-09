@@ -1,6 +1,6 @@
 ---
 title:  "보안 솔루션 이론"
-excerpt: "Scanning"
+excerpt: "방화벽, IPS, IDS 정리"
 
 comments: true
 categories: security-solution

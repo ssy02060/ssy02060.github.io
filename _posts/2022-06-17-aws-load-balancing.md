@@ -44,3 +44,33 @@ last_modified_at: 2022-06-17-00:02
   - Least Connection 기법 : 연결이 가장 적은 서버에 요청을 분배
   - Weighted Least Connection 기법 : Least Connection + 서버 성능 고려
   - Fastest Response Time : 응답 시간이 가장 적은 서버에 분배
+
+#### Load Balancer 실습
+
+![](../../assets/images/20220620-172728.png){: .center}
+
+![](../../assets/images/20220620-172738.png){: .center}
+
+![](../../assets/images/20220620-172749.png){: .center}
+
+- Application Load Balancer 선택
+
+![](../../assets/images/20220620-172825.png){: .center}
+
+![](../../assets/images/20220620-172914.png){: .center}
+
+![](../../assets/images/20220620-172952.png){: .center}
+
+- target group 생성
+
+![](../../assets/images/20220620-173026.png){: .center}
+
+![](../../assets/images/20220620-173057.png){: .center}
+
+![](../../assets/images/20220620-173119.png){: .center}
+
+- 적용할 인스턴스 추가
+- 로드밸런서 생성
+
+- 인스턴스에 apache2 설치, index.html 을 각각 다르게 작성한 후 load balancer dns로 접속
+- F5 누르면 각각 다른 페이지가 계속 나오게 됨

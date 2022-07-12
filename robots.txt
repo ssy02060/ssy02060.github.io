@@ -1,0 +1,3 @@
+ User-agent: *
+ Allow: /
+ Sitemap: https://ssy02060.github.io/sitemap.xml

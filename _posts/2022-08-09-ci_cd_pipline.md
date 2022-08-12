@@ -39,7 +39,7 @@ last_modified_at: 2022-08-09-00:03
 #### CI/CD 파이프라인 예시
 - 아래 이미지는 최근 진행하고 있는 프로젝트의 파이프라인 예시이다.
 
-![](../../assets/images/20220812-160256.png){: .center}
+![](../../assets/images/20220812-162004.png){: .center}
 
 - AWS public 클라우드 환경에서의 Microservice 아키텍처로 영화 추천 사이트를 개발하는 프로젝트이고
 - Infra에 대한 관리는 Terraform

@@ -1,8 +1,8 @@
 ---
 title:  "CI/CD Pipeline with Github Actions and terraform - 01"
-excerpt: "Github Actions 와 테라폼을 사용한 CI/CD 파이프라인"
+excerpt: "Github Actions 와 테라폼을 사용한 CI/CD 파이프라인 개요"
 
-categories: CI/CD
+categories: CI-CD
 tags:
   - [kubernetes, terraform, eks, ecr, github-actions]
 
@@ -42,7 +42,11 @@ last_modified_at: 2022-08-09-00:03
 ![](../../assets/images/20220812-162004.png){: .center}
 
 - AWS public 클라우드 환경에서의 Microservice 아키텍처로 영화 추천 사이트를 개발하는 프로젝트이고
-- Infra에 대한 관리는 Terraform
-- CI/CD 파이프라인은 Github Actions (Jenkins로 전환할수도 있음)
-- 
+- 소스코드는 github에 업로드
+- Infra에 대한 관리는 Terraform 사용
+- CI/CD 파이프라인은 Github Actions 사용 (Jenkins로 전환할수도 있음)
+- 원격 환경에서 상태 관리를 위한 tfstate는 s3에서 관리
+- 릴리즈는 ECR 사용
+- 배포는 EKS 클러스터 사용
+- Pipeline에 필요한 환경변수는 Github Secrets 에 저장
 

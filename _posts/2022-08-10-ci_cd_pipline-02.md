@@ -1,10 +1,10 @@
 ---
 title:  "CI/CD Pipeline with Github Actions and terraform - 02"
-excerpt: "Github Actions 와 테라폼을 사용한 CI/CD 파이프라인 (환경 구성 및 각 요소 설명)"
+excerpt: "jenkins Actions 와 테라폼을 사용한 CI/CD 파이프라인 (환경 구성 및 각 요소 설명)"
 
 categories: CI-CD
 tags:
-  - [kubernetes, terraform, eks, ecr, github-actions]
+  - [kubernetes, terraform, eks, ecr, jenkins]
 
 toc: true
 toc_sticky: true
@@ -33,14 +33,14 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt update && sudo apt install terraform
 ```
 
-### Github Actions 란?
+### jenkins 란?
 * * *
-- Github 에서 제공하는 CI/CD 파이프라인
+- 오픈소스 CI/CD 파이프라인
 - Push, Pull 등의 이벤트 발생 시 개발자가 지정한 태스크를 실행
-- jobs, steps, run 등으로 구성
+- stage, steps 등으로 구성
 
-#### github의 actions 탭에서 확인 가능
-![](../../assets/images/20220812-165336.png){: .center}
+#### ec2에 jenkins 서버 구성
+
 
 ### Github Secret이란?
 * * *

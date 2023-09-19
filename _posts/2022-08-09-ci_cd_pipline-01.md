@@ -1,10 +1,10 @@
 ---
 title:  "CI/CD Pipeline with Github Actions and terraform - 01"
-excerpt: "Github Actions 와 테라폼을 사용한 CI/CD 파이프라인 개요"
+excerpt: "jenkins 와 테라폼을 사용한 CI/CD 파이프라인 개요"
 
 categories: CI-CD
 tags:
-  - [kubernetes, terraform, eks, ecr, github-actions]
+  - [kubernetes, terraform, eks, ecr, jenkins]
 
 toc: true
 toc_sticky: true
@@ -34,7 +34,7 @@ last_modified_at: 2022-08-09-00:03
 - 이때 입력해야 하는 명령어는 수백, 수천이 될것이다.
 - 이를 code, Commit, push 이벤트 등을 감지하여 자동으로 수행할 수 있도록 한 것이 CI/CD 파이프라인이다.
 - 예시로는 Jenkins, Github Acitons가 있다.
-- 이 포스팅에선 **Github Actions**를 사용할 예정이다.
+- 이 포스팅에선 **Jenkins**를 사용할 예정이다.
 
 #### CI/CD 파이프라인 예시
 - 아래 이미지는 최근 진행하고 있는 프로젝트의 파이프라인 예시이다.

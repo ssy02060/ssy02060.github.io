@@ -23,6 +23,6 @@ last_modified_at: 2025-03-24-00:04
 - DB : mongoDB, postgreSQLß
 - OS : rocky
 - CI : github actions
-- CD : argoCDß
+- CD : argoCD
 - task management : notion
 - history & docs : github.io

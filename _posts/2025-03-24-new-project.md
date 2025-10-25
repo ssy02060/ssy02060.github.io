@@ -4,7 +4,7 @@ excerpt: "취미생활"
 
 categories: kubernetes
 tags:
-  - [kubernetes, docker, rancher, development, application, cloud-natvie]
+  - [kubernetes, docker, rancher, development, application, cloud-native]
 
 toc: true
 toc_sticky: true
@@ -12,10 +12,9 @@ toc_sticky: true
 date: 2025-03-24-00:03
 last_modified_at: 2025-03-24-00:04
 ---
-### 클라우드 네이티브 개발
+## 클라우드 네이티브 개발
 * * *
-## 기술 스택
-* * *
+### 기술 스택
 - backend : go / typescript(express) / python(django)
 - frontend : react
 - application : flutter
